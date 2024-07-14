@@ -1,0 +1,47 @@
+
+@import '../base/variables';
+.favoritos{
+    background-color: $grisClaro;
+    padding: 5rem 0;
+    &__head{
+        text-align: center;
+        color: $secundario;
+    }
+    &__grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }
+}
+.favorito{
+    background-color: $blanco;
+    padding: 4rem;
+    box-shadow: 0px 0px 2.6rem -0.8rem $grisClaro;
+    border-radius: 1rem;
+    &__grid{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        align-items: center;
+        gap: 4rem;
+    }
+    &__imagen{
+        max-width: 20rem;
+    margin: 0 auto 2rem auto;
+    }
+    &__contenido{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &__nombre{
+        margin: 1rem 0;
+        color: $primario;
+        font-size: 2.4rem;
+    }
+    &__descripcion{
+        margin: 0.5rem 0;
+        font-size: 1.6rem;
+        color: $secundario;
+        line-height: 1.7;
+    }
+    }

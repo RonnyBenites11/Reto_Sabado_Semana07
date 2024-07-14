@@ -1,0 +1,41 @@
+@import '../base/variables';
+.footer{
+    background-color:$secundario;
+    padding-top: 5rem;
+    &__grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    &__wid{
+        margin-bottom: 5rem;
+    }
+    &__head{
+        color: $blanco;
+        margin: 0;
+    }
+    &__texto{
+        font-size: 2rem;
+        line-height: 1.8;
+        color: $blanco;
+        width: 370px;
+    }
+    &__nav{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    &__link{
+        font-size: 2rem;
+        line-height: 1.8;
+        color: $blanco;
+        width: 370px;
+    }
+    &__copi{
+        background-color: $primario;
+        margin: 0;
+        color: $blanco;
+        text-align: center;
+        padding: 2rem;
+    }
+    
+}

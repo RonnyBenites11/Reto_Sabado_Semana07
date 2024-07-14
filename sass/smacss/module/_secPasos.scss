@@ -1,0 +1,20 @@
+@import '../base/variables';
+.pasos{
+    margin-top: 5rem;
+    &__contenido{
+        background-color: $primario;
+        padding-top: 50px;
+    }
+    &__head{
+        text-align: center;
+        color: $blanco;
+        &--descripcion{
+            font-size: 1.8rem;
+            display: block;
+        }
+    }
+    &__grid{
+        display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    }
+}

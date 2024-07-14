@@ -1,0 +1,48 @@
+@import '../base/variables';
+.formulario {
+    &__grid{
+        display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    }
+    &__contenido{
+        background-color: $primario;
+        padding: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    &__head{
+        color: $blanco;
+    text-align: center;
+    }
+    &__campo{
+        margin-bottom: 1rem;
+    }
+    &__label{
+        display: block;
+        text-transform: uppercase;
+        color: $blanco;
+        margin: 1rem 0;
+    }
+    &__input{
+        width: 100%;
+         padding: 1.5rem;
+            border: none;
+    }
+    &__button{
+        margin-top: 2rem;
+    background-color: $secundario;
+    color: $blanco;
+    font-size: 2rem;
+    padding: 1.2rem 3rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    border: none;
+    }
+}
+    
+    
+    

@@ -1,0 +1,22 @@
+
+img{
+    max-width: 100%;
+    display: block;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.header{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0;
+    align-items: center;
+    &__logo{
+        width: 30rem;
+    margin-bottom: 0;
+    }
+}
+
+
+

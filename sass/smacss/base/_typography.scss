@@ -1,0 +1,40 @@
+@import './variables';
+
+
+
+body {
+  font-family: $fuente_principal;
+
+  font-size: 1.6rem;
+  
+}
+h1,
+h2,
+h3 {
+  margin: 0 0 5rem 0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
